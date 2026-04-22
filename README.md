@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# 🚀 Snapix — From Idea to Reality
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+I challenged myself to build a real-world mobile app… and here it is — **Snapix** 📱  
 
-## Get started
+A modern, feature-rich camera app inspired by social media platforms, built using **React Native & Expo**.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ What Makes Snapix Special?
 
-2. Start the app
+### 📸 Smart Camera Experience
+- Live camera preview with grid alignment  
+- Smooth zoom controls (1x / 3x / 6x)  
+- Flash support for better shots  
+- Clean and responsive camera UI  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+### 🎭 Real-time Filters
+- Instant filter previews before capture  
+- Multiple color tones & effects  
+- Smooth transitions between filters  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🖼️ Gallery Management
+- Clean grid-based layout  
+- Multi-select with selection counter  
+- Delete functionality for media  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+### 💾 Seamless User Experience
+- Instant save with confirmation  
+- Retake, download & share options  
+- Smooth animations & transitions  
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Tech Stack
 
-## Learn more
+- ⚛️ React Native  
+- 🚀 Expo  
+- 📘 TypeScript  
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📸 App Preview
 
-## Join the community
+> Add your screenshots below 👇
 
-Join our community of developers creating universal apps.
+## 📸 Camera
+![Camera](./camera.jpg)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🖼️ Gallery
+![Gallery](./gallery.jpg)
+
+## 🎭 Filters
+![Filters](./filters.jpg)
+
+---
+
+
+## 📚 What I Learned
+
+- Handling device camera & permissions  
+- Building responsive mobile UI  
+- Managing media storage efficiently  
+- Debugging real-world app issues  
+
+---
+
+## 🚀 Future Plans
+
+- Advanced AI-based filters  
+- Video recording support  
+- Cloud backup integration  
+
+---
+
+## 💡 About Me
+
+Built with passion by **Harshit Sharma** 💻  
+Always learning, always building 🚀  
+
+---
+
+
