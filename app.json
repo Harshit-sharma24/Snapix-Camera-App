@@ -1,48 +1,44 @@
 {
   "expo": {
-    "name": "MyFirstApp",
-    "slug": "MyFirstApp",
+    "name": "SnapClone",
+    "slug": "SnapClone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myfirstapp",
+    "scheme": "snapclone",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
+
     "plugins": [
-      "expo-router",
       [
-        "expo-splash-screen",
+        "expo-camera",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
+          "cameraPermission": "Allow SnapClone to access your camera",
+          "microphonePermission": "Allow SnapClone to access your microphone"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow access to your photos",
+          "savePhotosPermission": "Allow saving photos"
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+
+    "android": {
+      "package": "com.harshit.snapclone",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO",
+        "READ_MEDIA_AUDIO"
+      ]
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "78584900-13b5-4a4c-8e7f-b702c532cd73"
+      }
     }
   }
 }
